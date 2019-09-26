@@ -61,9 +61,9 @@ The bottom two states with the lowest participation rates for SAT tests are Iowa
 
 Since they have the lowest rates we can start with one state which is Iowa. It seems to be the better choice with a much higher population [[4]](https://www.census.gov/quickfacts/fact/table/SD,IA,AR/PST045218) which in turn benefits more high school students to get a chance to go to University and a relatively median household income very close to the national median to support potential tuition fees. [[5]](https://acpe.alaska.gov/Portals/3/OTHER/Pubs/almanac2018-web.pdf)
 
-<img src="../images/sd_ia_stats.png" style="float: left; margin: 20px">
+<img src="./images/sd_ia_stats.png" style="float: left; margin: 20px">
 
-<img src="../images/ia_median.png" style="float: left; margin: 20px">
+<img src="./images/ia_median.png" style="float: left; margin: 20px">
 
 
 Furthermore, it seems that the College Board which is the administering the SAT tests in high schools will be introducing a new "Environmental Context Dashboard" scoring to be considered along with the Students' SAT scores during the University Admissions exercise. The pilot was first announced in February 2017 [[6]](https://www.insidehighered.com/news/2017/02/28/college-board-pilots-new-way-measure-adversity-when-considering-applications-some) and it looks like this annoucement has some effect on the decreasing ACT and increasing participation rates from 2017 to 2018 for 16 states, excluding those 3 states (Illinois, Colorado and Rhode Island) which have state policies mandating them to be required to be taken. 

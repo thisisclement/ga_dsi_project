@@ -55,7 +55,7 @@ Data dictionary for the final set of features.
 | rf_style_Hip      | int   | Type of roof: Hip                                                                              |
 | zoning_RM         | int   | Indicates Residential Medium Density zoning classification of the sale                         |
 
-Full data dictionary for the original Ames dataset [[here]](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt)
+Full data dictionary for the original Ames dataset [here](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt).
 
 ## Conclusions and Recommendations
 

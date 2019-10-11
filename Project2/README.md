@@ -19,6 +19,8 @@ There are too many possible indicators that might drive up or down housing price
 
 ## Data Dictionary
 
+Data dictionary for the final set of features.
+
 | Feature           | Type  | Description                                                                                    |
 |-------------------|-------|------------------------------------------------------------------------------------------------|
 | 1st Flr SF        | int   | First Floor square feet                                                                        |
@@ -52,6 +54,8 @@ There are too many possible indicators that might drive up or down housing price
 | remod_age         | int   | Age of house since remodelling at time of sale.  Same as property age if no remodelling done.  |
 | rf_style_Hip      | int   | Type of roof: Hip                                                                              |
 | zoning_RM         | int   | Indicates Residential Medium Density zoning classification of the sale                         |
+
+Full data dictionary for the original Ames dataset [[here]](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt)
 
 ## Conclusions and Recommendations
 

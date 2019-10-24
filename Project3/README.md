@@ -14,7 +14,7 @@ Assuming the production instance of Reddit went down recently which led to many 
 
 _r/MentalHealth_ and _r/Psychology_ were chosen because it is neither too similar nor too different. There are overlapping topics and we can see if the accuracy of the classification is indeed going to be good or bad.
 
-A few machine learning models will be going through supervised learning to be trained on existing data from each Subreddit. The model with the best accuracy will be the model of choice for this classfication problem. This model can continue to train on new data for new posts to enhance its accuracy.
+A few machine learning models will be going through supervised learning to be trained on existing data from each Subreddit. The model with the best accuracy will be the model of choice for this classification problem. This model can continue to train on new data for new posts to enhance its accuracy.
 
 ## Executive Summary
 
@@ -46,7 +46,7 @@ However, to truly increase the performance of the model, further research on und
 | Naive-Bayes         | 0.962          | 0.946      | 0.985         |
 | Random Forest       | 1.0            | 0.944      | 0.99          |
 
-The best model in terms of test score will be the Logistic Regression model with a relatively good ROC AUC score of 0.98 which is pretty close to the other models. 
+The best model in terms of test score will be the Logistic Regression model with a relatively good ROC AUC score of 0.98 which is pretty close to the other models.
 
 However, the ultimate winner would be the __Naive-Bayes model__. Its test score is just shy of 0.02 at 0.946 which is pretty decent and this model generalises well and do not overfit the training data as compared to the others. One important point is that it greatly increases model result interpretability by clearly specifying the top features by subreddit. It also included words that are before or after which is a further plus point. Furthermore, its ROC AUC score is slightly higher than that of Logistic Regression indicating that the two classes are quite well split.
 
@@ -54,9 +54,15 @@ However, the ultimate winner would be the __Naive-Bayes model__. Its test score 
 
 The misclassification rate is relatively low at 26-27 out of close to 2000 posts depending on the model used.
 
-Looking into some of them, they were misclassified due to the fact that the post was quite similar to redditors who post on the other subreddit. For example, in a False Negative case (when prediction was _r/Psychology_) - "U.S. Suicide Rates Are the Highest They've Been Since World War II \[U.S. suicide rates\] are at their highest since World War II, according to federal data‚and the opioid crisis, widespread social media use and high rates of stress may be among the myriad contributing factors.". This kind of informative post usually appears on _r/Psychology_ and hence was misclassified as such.
+Looking into some of them, they were misclassified due to the fact that the post was quite similar to redditors who post on the other subreddit. For example, in a False Negative case (when prediction was _r/Psychology_):
+> "U.S. Suicide Rates Are the Highest They've Been Since World War II \[U.S. suicide rates\] are at their highest since World War II, according to federal data‚and the opioid crisis, widespread social media use and high rates of stress may be among the myriad contributing factors.".
 
-For the False Positive case (when the prediction was _r/MentalHealth_) - "In light of the very tragic Connecticut Elementary School shootings, everyone is now bringing up gun control again. What no one is talking about (and never seems to talk about) is helping to increase mental health healthcare in the country.  And it's pissing me off.". This post has alot of the author's feelings in it and thus makes the machine think that it is under _r/MentalHealth_ where redditors mostly pour our their feelings into their posts.
+Such a post usually appears on _r/Psychology_ and hence was misclassified as such.
+
+For the False Positive case (when the prediction was _r/MentalHealth_):
+>"In light of the very tragic Connecticut Elementary School shootings, everyone is now bringing up gun control again. What no one is talking about (and never seems to talk about) is helping to increase mental health healthcare in the country.  And it's pissing me off.".
+
+This post has alot of the author's feelings in it and thus makes the machine think that it is under _r/MentalHealth_ where redditors mostly pour our their feelings into their posts.
 
 There tends to be some anomalies as to the post structure and subjectivity that is posted to both subreddits. Since it is user driven community and as long as it does not flout any of the community guidelines the moderators will just let the post be.
 

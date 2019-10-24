@@ -34,7 +34,7 @@ However, to truly increase the performance of the model, further research on und
 | Field     | Type   | Description                                                         |
 |-----------|--------|---------------------------------------------------------------------|
 | title_txt | string | The title and selftext of reddit post                               |
-| class     | int    | class = 1 refers to r/MentalHealth class = 2 refers to r/Psychology |
+| class     | int    | class = 1 refers to r/MentalHealth class = 0 refers to r/Psychology |
 
 ## Conclusions and Recommendations
 

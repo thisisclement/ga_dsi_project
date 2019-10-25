@@ -46,9 +46,9 @@ However, to truly increase the performance of the model, further research on und
 | Naive-Bayes         | 0.962          | 0.946      | 0.985         |
 | Random Forest       | 1.0            | 0.944      | 0.99          |
 
-The best model in terms of test score will be the Logistic Regression model with a relatively good ROC AUC score of 0.98 which is pretty close to the other models.
+The best model in terms of test score will be the Logistic Regression model with a relatively goof ROC AUC score of 0.98 which is pretty close to the other models.
 
-However, the ultimate winner would be the __Naive-Bayes model__. Its test score is just shy of 0.02 at 0.946 which is pretty decent and this model generalises well and do not overfit the training data as compared to the others. One important point is that it greatly increases model result interpretability by clearly specifying the top features by subreddit. It also included words that are before or after which is a further plus point. Furthermore, its ROC AUC score is slightly higher than that of Logistic Regression indicating that the two classes are quite well split.
+However, the ultimate winner would be the __Naive-Bayes model__. Its test score is just shy of 0.02 at 0.946 which is pretty decent and this model generalises well and do not overfit the training data as compared to the others. One important point is that it greatly increases model result interpretability by clearly specifying the top features by subreddit. It also included probabilities of the words that are before or after in the calculation which is a further plus point. Furthermore, its ROC AUC score is slightly higher than that of Logistic Regression indicating that the two classes are quite well split.
 
 ### Misclassifications
 
